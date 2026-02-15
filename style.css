@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: #959c9b;
+}
+.container{
+    background-image: linear-gradient(135deg, #00d49c, #5b548a);
+    backdrop-filter: blur(10px);
+    width: 90%;
+    max-width: 470px;
+    color: #FFF;
+    margin: 100px auto 0;
+    border-radius: 100px;
+    padding: 25px 55px;
+    text-align: center;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+/* SEARCH BAR */
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input{
+    border: none;
+    outline: none;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}.search button{
+    border: none;
+    outline: none;
+    background: #ebfffc;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}.search button i{
+    font-size: 20px;
+}
+/* ENDSEARCH BAR */
+
+/* MAIN CONTENT */
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 90px;
+}
+.details .col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+/* END MAIN CONTENT */
